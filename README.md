@@ -29,6 +29,7 @@ The goal is to classify images into four categories:
 ├── notebook/
 │   └── brain_tumor_detection.ipynb
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -40,7 +41,9 @@ notebook/: Contains the Jupyter Notebook with the complete workflow, including p
 
 requirements.txt: Lists all the required dependencies to run the project.
 
----
+LICENSE: License of the project.
+
+--
 
 📦 Requirements
 
@@ -48,7 +51,9 @@ To install the dependencies, run:
 
 pip install -r requirements.txt
 
-🧰 Technologies used
+--
+
+🧰 Technologies
 
 Python
 
@@ -62,9 +67,11 @@ Matplotlib & Seaborn: for data visualization.
 
 NumPy: for data handling and analysis.
 
+--
+
 ⚙️ How the model works
 
-Data loading: Images are read from the Training and Testing folders. I also used generators to make the dataset bigger.
+Data loading: Images are read from the Training and Testing folders. Also generators were used to make the dataset bigger.
 
 Preprocessing: Images are resized and normalized to match EfficientNetB0 input requirements.
 
@@ -74,6 +81,8 @@ Training: The model is trained using the images in the Training set, doing a tra
 
 Evaluation: Model performance is evaluated using the Testing set.
 
+--
+
 📊 Expected results
 
 Accuracy and loss plots during training.
@@ -82,18 +91,26 @@ Confusion matrix and classification metrics (accuracy, recall, F1-score).
 
 All steps, results and plots are documented in the notebook.
 
+--
+
 ✏️ Author
 
-This project was developed as a practice exercise in Computer Vision and Deep Learning.
+This project was developed by Jaime Martinez as a practice exercise in Computer Vision and Deep Learning.
+
+--
 
 ✅ License
 
 This project is licensed under the MIT License.
 You are free to use, modify and share it — please cite this repository if you find it useful.
 
+--
+
 ⭐ Contributing
 Pull requests are welcome!
 If you’d like to improve the model, add visualizations, or enhance the documentation, feel free to contribute.
+
+--
 
 📬 Contact
 If you have any questions or suggestions, open an issue in this repository or get in touch directly.
