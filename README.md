@@ -93,6 +93,12 @@ All steps, results and plots are documented in the notebook.
 
 ---
 
+###  🗂️  Data Source
+
+The data used in this project comes from the [Brain Tumor Classification MRI dataset on Kaggle](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri).
+
+---
+
 ### ✏️ Author
 
 This project was developed by Jaime Martinez as a practice exercise in Computer Vision and Deep Learning.
