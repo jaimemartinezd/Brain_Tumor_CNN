@@ -1,6 +1,6 @@
-# 🧠 Brain Tumor Detection with CNN (EfficientNetB0)
+# 🧠 Brain Tumor Detection CNN
 
-This repository contains a deep learning project for **brain tumor detection** from grayscale medical images, using a **CNN based on EfficientNetB0**.
+This repository contains a Deep Learning project for **brain tumor detection** from medical images, using a **CNN based on EfficientNetB0**.
 
 The goal is to classify images into four categories:
 - `glioma_tumor`
@@ -33,7 +33,7 @@ The goal is to classify images into four categories:
 └── README.md
 ```
 
-- data/: Contains the training and testing images, organized by class.
+- data/: Contains the training and testing images, organized by classes.
 
 - models/: Stores trained models.
 
@@ -101,7 +101,7 @@ The data used in this project comes from the [Brain Tumor Classification MRI dat
 
 ### ✏️ Author
 
-This project was developed by Jaime Martinez as a practice exercise in Computer Vision and Deep Learning.
+This project was developed by Jaime Martinez as a practice exercise in Deep Learning.
 
 ---
 
@@ -118,5 +118,5 @@ If you’d like to improve the model, add visualizations, or enhance the documen
 
 ---
 
-### 📬 Contact
+## 📬 Contact
 If you have any questions or suggestions, open an issue in this repository or get in touch directly.
