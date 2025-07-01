@@ -33,27 +33,23 @@ The goal is to classify images into four categories:
 └── README.md
 ```
 
-data/: Contains the training and testing images, organized by class.
+- data/: Contains the training and testing images, organized by class.
 
-models/: Stores trained models.
+- models/: Stores trained models.
 
-notebook/: Contains the Jupyter Notebook with the complete workflow, including preprocessing, training, and evaluation.
+- notebook/: Contains the complete workflow.
 
-requirements.txt: Lists all the required dependencies to run the project.
+- requirements.txt: All the required dependencies to run the project.
 
-LICENSE: License of the project.
+- LICENSE: License of the project.
 
---
-
-📦 Requirements
+### 📦 Requirements
 
 To install the dependencies, run:
 
 pip install -r requirements.txt
 
---
-
-🧰 Technologies
+### 🧰 Technologies
 
 Python
 
@@ -67,9 +63,7 @@ Matplotlib & Seaborn: for data visualization.
 
 NumPy: for data handling and analysis.
 
---
-
-⚙️ How the model works
+### ⚙️ How the model works
 
 Data loading: Images are read from the Training and Testing folders. Also generators were used to make the dataset bigger.
 
@@ -81,9 +75,7 @@ Training: The model is trained using the images in the Training set, doing a tra
 
 Evaluation: Model performance is evaluated using the Testing set.
 
---
-
-📊 Expected results
+### 📊 Expected results
 
 Accuracy and loss plots during training.
 
@@ -91,26 +83,18 @@ Confusion matrix and classification metrics (accuracy, recall, F1-score).
 
 All steps, results and plots are documented in the notebook.
 
---
-
-✏️ Author
+### ✏️ Author
 
 This project was developed by Jaime Martinez as a practice exercise in Computer Vision and Deep Learning.
 
---
-
-✅ License
+### ✅ License
 
 This project is licensed under the MIT License.
 You are free to use, modify and share it — please cite this repository if you find it useful.
 
---
-
-⭐ Contributing
+### ⭐ Contributing
 Pull requests are welcome!
 If you’d like to improve the model, add visualizations, or enhance the documentation, feel free to contribute.
 
---
-
-📬 Contact
+### 📬 Contact
 If you have any questions or suggestions, open an issue in this repository or get in touch directly.
