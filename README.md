@@ -71,7 +71,7 @@ NumPy: for data handling and analysis.
 
 ### ⚙️ How the model works
 
-Data loading: Images are read from the Training and Testing folders. Also generators were used to make the dataset bigger.
+Data loading: Images are read from the Training and Testing folders. Added generators for data augmentation.
 
 Preprocessing: Images are resized and normalized to match EfficientNetB0 input requirements.
 
